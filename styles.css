@@ -6,7 +6,7 @@ body {
     background: #a3939300;
 }
 
-.center {
+.center{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -19,7 +19,7 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-header {
+header{
     background: #000000;
     color: #13b9d2;
     padding: 10px 0;
@@ -31,7 +31,7 @@ header h1, header p {
     text-align: center;
 }
 
-nav ul {
+nav ul{
     padding: 0;
     list-style: none;
     text-align: center;
@@ -73,4 +73,19 @@ footer {
     background: #000000;
     color: #30c1cc;
     padding: 10px 0;
+}
+.section:hover{
+    border: 15px solid;
+    border-radius: 20%;
+    border-color: #0cd1ef;
+}
+header:hover{
+    border: 15px solid;
+    border-radius: 20%;
+    border-color: #0cd1ef;
+}
+footer:hover{
+    border: 15px solid;
+    border-radius: 20%;
+    border-color: #0cd1ef;
 }
